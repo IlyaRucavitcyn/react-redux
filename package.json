@@ -118,7 +118,14 @@
     ]
   },
   "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "include": [
+      "src/**/*.js"
+    ],
     "sourceMap": false,
-    "instrument": false
+    "instrument": false,
+    "all": true
   }
 }
